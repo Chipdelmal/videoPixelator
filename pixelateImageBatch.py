@@ -4,10 +4,10 @@ import glob
 import functions as fun
 
 (PATH_IN, PATH_OUT, GRID_SIZE, FRM, FRAME_COL) = (
-        './media/image/', './media/imageOut/',
+        './imageIn/', './imageOut/',
         10, True, [0, 0, 0]
     )
-images = glob.glob(PATH_IN+'*.jpg')
+images = glob.glob(PATH_IN+'*.png')
 images.sort()
 for path in images:
     img = cv2.imread(path)
