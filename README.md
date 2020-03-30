@@ -3,7 +3,7 @@
 These scripts can "pixelate" an image or video by taking the means of regular-sized pixels blocks and adding frames to them.
 
 <img src="./media/test.jpg" width='100%'>
-<img src="./media/testOut.png" width='100%'>
+<img src="./media/testOut.jpg" width='100%'>
 
 ##  Instructions
 
