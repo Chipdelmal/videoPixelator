@@ -5,7 +5,7 @@ import functions as fun
 
 (PATH_IN, PATH_OUT, GRID_SIZE, FRM, FRAME_COL) = (
         './imageIn/', './imageOut/',
-        8, True, [0, 0, 0]
+        12, True, [0, 0, 0]
     )
 images = glob.glob(PATH_IN+'*.png')
 images.sort()
